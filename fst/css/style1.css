@@ -1,0 +1,173 @@
+/* *{
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+} */
+* {box-sizing: border-box}
+p.rtl {
+  direction: rtl;
+}
+body{
+  /* width: 80%;
+  margin: 0 auto; */
+  background-color: #F5F8FA;
+
+}
+#navbar{
+  background-color: #14171A;
+  color: #fff;
+  width:80%;
+  margin: 0 auto;
+
+
+
+
+}
+#navbar ul{
+  padding: 0;
+  list-style: none;
+
+
+
+
+}
+#navbar li{
+  position: relative;
+  display: inline;
+  left: 60%;
+
+
+
+
+}
+#navbar a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 28px;
+  padding-right: 15px;
+
+}
+.container ul li p{
+  position:absolute;
+  bottom :-75px;
+  color: black;
+  line-height: 1.5rem;
+
+  border:2px solid #657786;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px 20px 5px;
+  min-width: 80%;
+  left: 12%;
+
+
+}
+.container{
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 0;
+  height: 0;
+  left: 55px;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+
+
+
+
+}
+
+.container iframe,.container object,.container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.container ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.container ul li{
+    float:left;
+    list-style: none;
+    width:30%;
+    height:300px;
+    position: relative;
+
+    margin :20px 0px 40px 55px;
+    border:2px solid blue;
+
+    border-radius: 15px 50px 30px;
+
+
+}
+.container ul li::after{
+  box-shadow: inset  60px 10px 250px #41B3A3 yellow,inset  -60px -10px 250px #41B3A3 ;
+}
+.container ul li:hover{
+    opacity: 1.2;
+    z-index: 4;
+    border: 2px solid black;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+.container ul li .bottom{
+    width: 100%;
+    height:50px;
+    line-height: 50px;
+    /* background: blue; */
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    /* background-color: #5CDB95; */
+
+}
+/* Style tab links */
+.tablink {
+  position: relative;
+  background-color: #555;
+  color: white;
+  float: right;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  right:12%;
+
+}
+
+.tablink:hover {
+  background-color: #777;
+
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+  border:2px solid blue;
+  background-color: #657786;
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+@media screen and (max-width:1250px){
+    .container ul li{
+        width:40%;
+        margin-left: 40px;
+
+    }
